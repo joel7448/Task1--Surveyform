@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1sttask.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Water+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h4 class="n">Name</h4>
+   <input class="firstname" type="text" required> 
+      <input class="lastname" type="text" required>
+   <h4 class="fir" >First name<span class="l">Last Name</span></h4>
+   <h4 class="mail">Email</h4>
+   <input class="m" type="email" required>
+  
+   <h4 class="experience">Your Experience</h4>
+<div>
+<span class="fa fa-star " id="k1" onclick="star1()"></span required>
+<span class="fa fa-star " id="k2" onclick="star2()"></span required>
+<span class="fa fa-star " id="k3" onclick="star3()"></span required>
+<span class="fa fa-star " id="k4" onclick="star4()"></span required>
+<span class="fa fa-star " id="k5" onclick="star5()"></span required>
+</div>
+<p class="overall">Overall, how would you rate your experience with us?</p>
+<p class="overall" id="overall2">How satisfied are you with<span class="hash"> *</span></p>
+<div class="topic1">Very Unsatisfied</div><div class="topic2">Unsatisfied</div><div class="topic3">Neutral</div><div class="topic4">Satisfied</div><div class="topic5">Very Satisfied</div>
+  <div class="contx" > <li type="none" class="one j"><span class="pur">Purchase</span><input class="Purchase1" name="purchase" type="radio" required><input class="Purchase2" name="purchase" type="radio" ><input class="Purchase3" name="purchase" type="radio" ><input class="Purchase4" name="purchase" type="radio"><input class="Purchase5" name="purchase" type="radio"></li></div>
+  <div class="contx Y">  <li type="none" class="o"><span class="ser">Service</span><input class="service1" name="service" type="radio" required><input  class="service2" name="service" type="radio"><input class="service3" name="service" type="radio"><input class="service4" name="service" type="radio"><input class="service5" name="service" type="radio"></li></div>
+  <div class="contx X">  <li type="none"><div class="i">Company Overall</div><input class="Company" name="company" type="radio" required><input class="Company1" name="company" type="radio"><input class="company2" name="company" type="radio"><input class="company3" name="company" type="radio"><input class="company4" name="company" type="radio"></li></div>
+
+  <h4 class="overall " id="o1">How likely are you to <span class="hash"> *</span></h4>
+  <div class="topic11">Very Unlikely</div><div class="topic12 a">Unlikely</div><div class="topic13">Neutral</div><div class="topic14">Likely</div><div class="topic15">Very Likey</div>
+    <div class="contx" id="contx1" > <li type="none" class="one b"><div class="buyfromus">Buy from us again</div><input class="Purchase1 p" id="p1" name="buy" type="radio" required><input class="Purchase2" id="p2" name="buy" type="radio"><input class="Purchase3" id="p3" name="buy" type="radio"><input class="Purchase4" id="p4" name="buy" type="radio"><input  id="p5" name="buy" type="radio"></li></div>
+    <div class="contx Y" id="contx2"><li type="none"><div class="recommend">Recommend our <li type="none"><div class="recommend"> products to others </div><input class="service1 e q " id="q1" name="recommend" type="radio" required><input  class="service2 q" id="q2" name="recommend" type="radio"><input class="service3 q" id="q3" name="recommend" type="radio"><input class="service4 q" id="q4" name="recommend" type="radio"><input class="service5" id="q5" name="recommend" type="radio"></li></li></div>
+    <div class="contx X" id="contx3">  <li type="none"><div class="recommend2">Recommend our</div> <li type="none"><div class="mc">company to others</div></li><input  id="r1" name="company1" type="radio" required ><input  id="r2" name="company1" type="radio"><input  id="r3" name="company1" type="radio"><input class="company3 r" id="r4" name="company1" type="radio"><input class="company4 r i" id="r5" name="company1" type="radio"></li></div>
+
+<h4 class="comments" >Additional comments or suggestions</h4>    
+<textarea name="text" cols="110" rows="10"></textarea required>
+<button class="button" type="submit">Submit</button>
+    </form>
+    <script src="1sttask.js"></script>
+</body>
+</html>
